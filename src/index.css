@@ -1,0 +1,58 @@
+.app {
+    display: flex;
+    gap: 1rem;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 12px;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.card {
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 10px;
+}
+
+.orderSummary-total {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #218838;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.total-button {
+    border: none;
+    background-color: black;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
